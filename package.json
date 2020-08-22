@@ -1,0 +1,25 @@
+{
+  "name": "pixi-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for PixiJS projects",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --config webpack.dev.js --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexanderdgee/pixi-boilerplate.git"
+  },
+  "author": "alexanderdgee",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/alexanderdgee/pixi-boilerplate/issues"
+  },
+  "homepage": "https://github.com/alexanderdgee/pixi-boilerplate#readme",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
